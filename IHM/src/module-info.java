@@ -4,8 +4,9 @@ module ihm.mymodule {
 	
 	
 	requires app.module1;
-	requires quizmodule.service;
 	
+	
+	requires quizmodule.service;
 	uses Iservice;
 	
 	

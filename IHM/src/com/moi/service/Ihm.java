@@ -22,22 +22,22 @@ public class Ihm {
 	 Iservice em ;
 	
 	
-	public Ihm(Iservice em) {
-		super();
-		this.em = em;
-	}
 	
 	public void abc()
 	{
 		Quiz q=new Quiz();
-		q.setId(1);
+		q.setId(1);q.setTitle("java 11 quiz");
 		em.addquiz(q);
 		
 	}
 
+	
+
 	public void setEm(Iservice em) {
 		this.em = em;
 	}
+
+
 
 	public Ihm() {
 		super();
